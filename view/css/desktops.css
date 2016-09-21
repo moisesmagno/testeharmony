@@ -1,0 +1,359 @@
+/*TABLET - PAISAGEM  OU MONITORES ANTIGOS(ENTRE 769PX E 960PX)*/
+@media all and (min-width: 961px) and (max-width: 1185px){
+
+    /* ---------------------------------
+    VÍDEO DO HOME 
+    --------------------------------- */
+    .txt_grande{display: none;}
+    .txt_medio{display: block;}
+    
+    .txt1_vd_home h1,
+    .txt2_vd_home h1{
+        font: 1.2em 'dual300';
+    }
+    /* ---------------------------------
+    FIM DO VÍDEO DO HOME 
+    --------------------------------- */
+    
+    /* ---------------------------------
+    EXPLICAÇÃO HARMONY HOME
+    --------------------------------- */
+    .env_img_txt:first-child{
+        margin-top: 7%;
+    }
+
+    .env_img_txt:last-child{
+        margin-bottom: 5%;
+    }
+    
+    .img_esquerda img,
+    .img_direita img{
+        width: 26%;
+    }
+    
+    .txt_esquerda p{
+        width: 75%;
+    }
+
+    .txt_direita p{
+        width: 75%;
+    }
+    /* ---------------------------------
+    FIM DA EXPLICAÇÃO HARMONY HOME
+    --------------------------------- */
+    
+    /* ---------------------------------
+    GRAFICOS DE TAXAS NO HOME
+    --------------------------------- */
+    .tt_graficos_home{
+        font: 1.5em 'dual300';
+        margin-top: 6.5%;
+        margin-bottom: 3.5%;
+    }
+    
+    .graficos_home{
+        margin-bottom: 6%;
+    }
+    
+    .img_tx_falso_positivo img{
+        width: 70%;
+    }
+
+    .img_tx_deteccao img{
+        width: 65%;
+    }
+
+    /* ---------------------------------
+    FIM DOS GRAFICOS DE TAXAS NO HOME
+    --------------------------------- */
+    
+    /* ---------------------------------
+    PORQUE O HARMONY?
+    --------------------------------- */
+    .tt_pq_harmony h1{
+        font: 2.2em 'dual300';  
+        margin-bottom: 0px; 
+    }
+   
+    .img_pq_harmony{
+        margin-right: 7% !important;
+    }
+
+    .txt_pq_harmony p{
+        width: 67%;
+    }
+    
+    .txt_pq_harmony ul li{
+        width: 67%;
+    }
+    /* ---------------------------------
+    FIM DO PORQUE O HARMONY?
+    --------------------------------- */
+    
+    /* ---------------------------------
+    BARRA DE MENUS
+    --------------------------------- */
+    .links_menus ul{
+        margin-top: 2.1%;
+    }
+
+    .links_menus ul li{
+        font: 1em 'dual300';
+        margin-left: 2%;
+    }
+
+    .links_menus ul li:first-child{
+        margin-right: 3%;
+    }
+    /* ---------------------------------
+    FIM DA BARRA DE MENUS
+    --------------------------------- */
+    
+    /* ---------------------------------
+    UL LI DESCRITIVO DO SAIBA MAIS
+    --------------------------------- */
+    .ul_teste_saibamais,
+    .ul_vantagens_desc_saibamais,
+    .ul_significado_saibamais{
+        width: 85%; 
+        font: 1.1em 'dual300';
+        margin-left: 0%;
+    }
+    
+    .ul_teste_saibamais li,
+    .ul_significado_saibamais li,
+    .ul_vantagens_desc_saibamais li{
+        padding-top: 2%;
+        width: 100%;
+        text-align: justify !important;
+    }
+    /* ---------------------------------
+    FIM UL LI DESCRITIVO DO SAIBA MAIS
+    --------------------------------- */
+    
+    /* ---------------------------------
+    HARMONY PARTE 2
+    --------------------------------- */
+    .txt_parte2_lado_equerdo h1,
+    .txt_parte2_lado_direita h1{
+        width: 80%;
+        font: 1.3em 'dual300';
+        font-weight: bold;
+    }
+
+    .txt_parte2_lado_direita ul, 
+    .txt_parte2_lado_equerdo ul, 
+    .txt_parte2_lado_direita ul{
+        width: 70%;
+    }
+
+    .txt_parte2_lado_equerdo ul li img, 
+    .txt_parte2_lado_direita ul li img{
+        margin-bottom: 150px;
+    }
+
+    .txt_parte2_lado_direita p{
+        width: 70%;
+    }
+    /* ---------------------------------
+    FIM DO HARMONY PARTE 2
+    --------------------------------- */
+
+    /* ---------------------------------
+    TRIAGEM ATUAL 
+    --------------------------------- */
+    .grafico_triagem_atual img{
+        margin-right: 5%;
+    }
+
+    .txt_triagem_atual ul{
+        width: 85%;
+    }
+
+    .txt_triagem_atual ul li{
+        text-align: justify;
+        padding-top: 5%;
+    }
+    /* ---------------------------------
+    FIM DA TRIAGEM ATUAL 
+    --------------------------------- */
+
+    /* ---------------------------------
+    MAPA
+    --------------------------------- */
+    .tt_des_mapa{
+        float: right;
+        width: 100%;
+        margin-top: 27%;
+        font: 1.6em 'dual300';
+        color: #945f8b;
+        text-align: center; 
+    }
+    /* ---------------------------------
+    FIM DO MAPA
+    --------------------------------- */
+    
+    /* ---------------------------------
+    LOGO DE CLIENTES
+    --------------------------------- */
+    .tt_imgs_logos{
+        font:1.7em 'dual300';
+    }
+
+    .env_imgs_sub img{
+        width: 230px;
+    }
+    /* ---------------------------------
+    FIMDO DOS LOGO DE CLIENTES
+    --------------------------------- */
+    .txt_parceria p{
+        width: 80%;
+    }
+
+    .txt_parceria a{
+        margin-left: 15%;
+    }
+    /* ---------------------------------
+    FIM DA PARCERIAS
+    --------------------------------- */
+    
+    .copyright span{
+        float: right; 
+        margin-right: 6%;
+    }
+    
+    
+    /* ---------------------------------
+    RESULTADOS DE BUSCAS.
+    --------------------------------- */
+    .detalhes1{
+        width: 88.5%;
+    }
+
+    .det_telefone p,
+    .det_site p,
+    .det_email p,
+    .det_mapa p,
+    .det_endereco p,
+    .det_bairrocep p{
+        width: 90%;
+    }
+    
+    .det_bairrocep p{
+        margin-left: 8%;
+    }
+
+    .detalhes2{ width: 89%;}
+
+    .editar_cliente{
+        float: left; 
+        width: 78.1%; 
+        margin-left: 7.3%;
+    }    
+        
+    /* ---------------------------------
+    FIM DOS RESULTADOS DE BUSCAS.
+    --------------------------------- */
+    
+    /* ---------------------------------
+    ESTUDOS CLÍNICOS
+    --------------------------------- */
+
+    .env_conteudo{
+        margin: 0 auto; 
+        width: 95%;
+    }
+    /* ---------------------------------
+    FIM DOS ESTUDOS CLÍNICOS
+    --------------------------------- */
+    
+    /* ---------------------------------
+    LAUDOS E OUTROS EXAMES
+    --------------------------------- */
+    .txt_nous p{
+        margin-top: 0%;
+    }
+    /* ---------------------------------
+    FIM DOS LAUDOS E OUTROS EXAMES
+    --------------------------------- */
+    
+    /* ---------------------------------
+    LOGIN
+    --------------------------------- */
+    .env_logotipo_login img{
+        width: 400px; 
+    }
+
+    .form_login{
+        width: 40%;
+        margin: 0 auto; 
+        text-align: center; 
+    }
+    /* ---------------------------------
+    FIM DO LOGIN
+    --------------------------------- */
+    
+    /* ---------------------------------
+    ADMIN
+    --------------------------------- */
+    .tt_area_admin{
+        font: 1.7em 'dual300';
+        font-weight: bold;
+        margin-top: 10%;
+    }
+    
+    .form_cad_cli{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .form_cad_cli label{
+        font-size: 1.1em !important;
+    }
+    
+    .tt_cli_ativos, .tt_cli_inativos{font-size: 1.4em; margin-top: 10%;}
+    .ls_todos_cli_ativos,
+    .ls_todos_cli_inativos{
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+    
+    
+    .form_listar_cli{width: 50%; margin-left: 25%; margin-bottom: 5%;}
+    
+    .total_clientes{
+        width: 30%;
+        margin-left: 35%;
+        font-size: 1em;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-bottom: 10%
+    }
+    /* ---------------------------------
+    FIM DO ADMIN
+    --------------------------------- */
+}
+
+@media all and (min-width: 1186px){
+
+    .txt1_vd_home h1,
+    .txt2_vd_home h1{
+        max-width: 853px;
+        font: 1.3em 'dual300';
+        margin: 0 auto; 
+    }    
+}
+/* ---------------------------------
+VÍDEO DO HOME 
+--------------------------------- */
+.logo_vd_home img{
+    width: 16.7%;
+}
+
+.env_video{
+    width: 60%;
+}
+/* ---------------------------------
+FIM DO VÍDEO DO HOME 
+--------------------------------- */
+

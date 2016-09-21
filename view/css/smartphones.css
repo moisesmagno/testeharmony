@@ -1,0 +1,2855 @@
+/*SMARTPHONE - RETRATO (MÁXIMO 320PX)*/
+@media all and (max-width: 320px){
+    /* ---------------------------------
+    MENU RESPONSIVO
+    --------------------------------- */
+    .menu_desktop{display: none;}
+    
+    .menu_responsivo{display: block;}
+    
+    .tt_lista_perfils{
+        margin-top: 12%;
+    }
+    
+    .logo_menu_responsivo{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .logo_menu_responsivo img{
+        width: 95px;
+    }
+    
+    .icone_menu_responsivo{
+        margin-top: 3.6%;
+    }
+
+    .icone_menu_responsivo img{
+        width: 20px;
+        height: 20px; 
+    }
+    
+    .links_menu_mobile ul li{ 
+        font: 0.7em 'dual300';
+        padding-top: 2.4%;
+        padding-bottom: 2.4%;
+    }
+    
+    .links_menu_mobile ul li span{
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    /* ---------------------------------
+    FIM DO MENU RESPONSIVO
+    --------------------------------- */ 
+    
+    /* ---------------------------------
+    FIM DO BANNER RESPONSIVO
+    --------------------------------- */    
+    .img_banner_desktop{display:none;}
+    .img_banner_responsivo{display: block;}
+    /* ---------------------------------
+    FIM DO BANNER RESPONSIVO
+    --------------------------------- */
+    
+    /* ---------------------------------
+    ICONES DO BANNER
+    --------------------------------- */    
+    .cbp-bicontrols {
+	right: 2%;
+        bottom: 0%;
+    }
+    .cbp-bicontrols span {
+	width: 30px;
+	height: 80px;
+    }
+    
+    .cbp-bicontrols span:before {
+	font-size: 30px;
+        line-height: 110px;
+    }
+    /* ---------------------------------
+    FIM DOS ICONES DO BANNER
+    --------------------------------- */
+    
+    /* ---------------------------------
+    VÍDEO DO HOME 
+    --------------------------------- */
+    .logo_vd_home img{
+        width: 37%;
+        padding-top: 13%;
+    }
+    
+    .txt_grande{display: none;}
+    .txt_pequeno{display: none;}
+    
+    .txt2_vd_home h1{
+        width: 80%;
+        font: 1em 'dual300';
+    }
+    
+    .txt2_vd_home{
+         padding-bottom: 12%;
+    }
+    
+    .env_video{
+        width: 90%;
+        padding-top: 2%;
+        padding-bottom: 1%;
+    }
+    /* ---------------------------------
+    FIM DO VÍDEO DO HOME 
+    --------------------------------- */
+    
+    /* ---------------------------------
+    EXPLICAÇÃO HARMONY HOME
+    --------------------------------- */ 
+     .env_img_txt:first-child{
+        margin-top: 12% !important;
+    }
+
+    .env_img_txt:last-child{
+        margin-bottom: 7%;
+    }
+    
+    .img_esquerda,
+    .img_direita,
+    .txt_esquerda,
+    .txt_direita{
+        width: 100%;
+        text-align: center !important; 
+    }
+    
+    .img_esquerda img,
+    .img_direita img{
+        float: none !important;
+        margin: 0 auto; 
+        width: 30%;
+    }
+    
+    .img_esquerda_normal{display: none;}
+    .img_esquerda_smartphone{display: block;}
+    
+    .txt_esquerda h1,
+    .txt_direita h1{
+        float: none !important;
+        width: 100%;
+        text-align: center; 
+        margin-top: 1%;
+        margin-left: 0px;
+    }
+    
+    .txt_direita,
+    .txt_esquerda{
+        float: none !important;
+        width: 100% !important;
+        text-align: center; 
+    }
+    
+    .txt_direita p,
+    .txt_esquerda p{
+        float: none !important;
+        width: 90%;
+        text-align: justify; 
+        margin-top: 1px;
+        margin-left: 5%;
+        font: 0.9em 'dual300';
+    }
+    /* ---------------------------------
+    FOIM DA EXPLICAÇÃO HARMONY HOME
+    --------------------------------- */ 
+    
+    /* ---------------------------------
+    GRAFICOS DE TAXAS NO HOME
+    --------------------------------- */
+    .tt_graficos_home_responsivo{
+        display: block;
+        width: 96%;
+        font: 1.2em 'dual300';
+        text-align: justify;
+        margin-top: 15%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 8%;
+    }
+    
+    .tt_graficos_home{
+        display: none;
+    }
+    
+    .graficos_home{
+        
+        margin-bottom: 11%;
+    }
+    
+    .img_tx_falso_positivo,
+    .img_tx_deteccao{
+        width: 100%; 
+        text-align: center !important;
+    }
+    
+    .img_tx_falso_positivo img{
+        float: none !important;
+        width: 95%;
+        margin: 0 auto; 
+    }
+
+    .img_tx_deteccao img{
+        float: none !important;
+        width: 70%;
+        padding-top: 8%;
+        margin: 0 auto; 
+    }
+    /* ---------------------------------
+    FIM DOS GRAFICOS DE TAXAS NO HOME
+    --------------------------------- */
+    
+    /* ---------------------------------
+    PORQUE O HARMONY?
+    --------------------------------- */
+    .tt_pq_harmony h1{
+        font: 2em 'dual300';  
+        margin-top: 12%;
+        margin-bottom: 0px; 
+    }
+    
+    .pq_harmony{
+        margin-top: 8%;
+    }
+    
+    .lad_esquerdo_pq_harmony,
+    .lad_direito_pq_harmony{
+        float: left; 
+        width: 100%;
+        text-align: center; 
+    }
+    
+    .pq_harmony:last-child{
+        margin-bottom: 7% !important;
+    }
+    
+    .img_pq_harmony{
+        float: none !important;
+        margin: 0 auto !important; 
+    }
+    
+    .img_pq_harmony img{
+        width: 40px;
+        margin: 0 auto; 
+    }
+    
+    .txt_pq_harmony{
+        width: 100%; 
+        text-align: center; 
+        margin-left: 0;
+    }
+    
+    .txt_pq_harmony p{
+        text-align: center; 
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2%;
+        font: 1em 'dual300'; 
+    }
+    
+    .txt_pq_harmony ul li{
+        width: 80%;
+        margin-left: 10%; 
+        text-align: left;
+        font-size: 1em;
+    }
+    
+     .link_vermais_grafico{
+        float: left; 
+        width: 70%;
+        margin-top: 7%;
+        margin-left: 10%;
+        margin-bottom: 15%;
+        color: #945f8b;
+        font-weight: bold;
+        padding: 1.3%;
+        padding-left: 3%;
+        padding-right: 3%;
+        border: 1px solid #945f8b;    
+    }
+    
+    .link_vermais_grafico:hover{
+        background: #945f8b;
+        color: #fff;        
+    }
+    
+    .link_vermais_grafico a:first-child{display: none;}
+    
+    .link_vermais_grafico a:last-child{
+        display: block; 
+        border: none;
+        font: 1em 'dual300';
+        font-weight: bold;
+    }
+    
+    .txt_direita a, .txt_esquerda a {
+        float: left; 
+        width: 100%; 
+        text-align: center; 
+        font-size: 1em;
+    }
+    /* ---------------------------------
+    FIM DO PORQUE O HARMONY?
+    --------------------------------- */
+    
+    /* ---------------------------------
+    DESCRITIVO SAIBA MAIS RESPONSIVO
+    --------------------------------- */
+    .link_cont_desc{display: none;}
+
+    .tt_umpouco_ciencia{display: none;}
+    
+    .tt_umpouco_ciencia_responsivo{
+        display: block;
+        font-size: 0.9em;
+        margin-top: 22%; 
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .menus_desc_responsivo{display: block;}
+    
+    .menus_desc_responsivo ul li{
+        font: 0.9em 'dual300';
+        margin-top: 10%;
+        font-weight: bold;
+    }
+
+    .menus_desc_responsivo ul li img{ 
+        width: 13px; 
+        margin-top: 1%;
+    }
+    
+    .env_desc_saibamais_responsivo h3{
+        font: 1em 'dual300';
+    }
+
+    .env_desc_saibamais_responsivo p{
+        font: 0.9em 'dual300';
+    } 
+    
+    .ul_cont_desc_saibamais li{
+        font-weight: normal !important;
+        font-size: 0.9em;
+    }
+    
+    .accordion_link_resp1{padding-top: 1%;}
+    .accordion_link_resp7{margin-bottom: 10%;}    
+    /* ---------------------------------
+    FIM DO DESCRITIVO SAIBA MAIS RESPONSIVO
+    --------------------------------- */
+    
+    /* ---------------------------------
+    AVISO SAIBA MAIS
+    --------------------------------- */
+    .texto_aviso{display: none;}
+    
+    .env_img_aviso{
+        float: left; 
+        width: 100%; 
+        text-align: center; 
+    }
+    
+    .img_aviso{
+        float: none !important;
+        width: 70px; 
+        margin-top: 14%;
+        margin-bottom: 0%;
+    }
+    
+    .text_aviso_2{
+        display: block;
+        float: left; 
+        width: 134%; 
+        text-align: center; 
+        margin-top: 3%;
+        margin-bottom: 20%;
+        padding-right: 8%;
+        padding-left: 8%; 
+        font: 0.9em 'dual300';
+    }
+    /* ---------------------------------
+    FIM DO AVISO SAIBA MAIS
+    --------------------------------- */
+    
+    /* ---------------------------------
+    TRIAGEM ATUAL 
+    --------------------------------- */
+    .tt_triagem_atual{
+        width: 95%;
+        padding-right: 2.5%;
+        padding-left: 2.5%;
+        text-align: center; 
+        font: 1em 'dual300';
+        margin-top: 14%; 
+        font-weight: bold;
+    }
+
+    
+    .grafico_triagem_atual{
+        float: left; 
+        width: 100%;
+        text-align: center !important; 
+    }
+    
+    .grafico_triagem_atual img{
+        float: none !important;
+        width: 95%;
+        margin-right: 0 !important;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+
+    .txt_triagem_atual{
+        float: left;
+        width: 100%;
+    }
+    
+    .txt_triagem_atual ul{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 14%;
+    }
+
+    .txt_triagem_atual ul li{
+        text-align: justify;
+        padding-top: 5%;
+        font-size: 0.9em;
+    }
+    /* ---------------------------------
+    FIM DA TRIAGEM ATUAL 
+    --------------------------------- */
+    
+    /* ---------------------------------
+    HARMONY PARTE 1 - SAIBA MAIS
+    --------------------------------- */
+    .tt_uma_nova_op{display: none;}
+
+    .tt_uma_nova_op_responsivo{
+        display: block;
+        margin-top: 14%;
+        font: 1.1em 'dual300';
+        color: #73aa95;
+        font-weight: bold;
+        text-align: justify;
+    }
+    
+    .topicos_harmony{ 
+        width: 85%;
+        margin-left: 7.5%;
+    }
+
+    .topicos_harmony h3{
+        font: 1em 'dual300';
+        font-weight: bold;
+    }
+
+    .topicos_harmony ul{
+        width: 95%; 
+        margin-left: 2%;
+    }
+
+    .topicos_harmony ul li{ 
+        width: 100%; 
+        font: 0.9em 'dual300';
+        margin-bottom: 5%; 
+    }
+
+    .topicos_harmony ul li:last-child{
+        margin-bottom: 7%;
+    }
+
+    .circulo{
+        width: 7px;
+        height: 7px;
+        margin-bottom: 50px;
+    }
+    /* ---------------------------------
+    FIM DO HARMONY PARTE 1 - SAIBA MAIS
+    --------------------------------- */
+    
+    /* ---------------------------------
+    HARMONY PARTE 2
+    --------------------------------- */
+    .tt_faixa_harmony_parte2{display: none;}
+    .tt_faixa_harmony_parte2_responsivo{
+        display: block;
+        font: 1.1em 'dual300';
+        font-weight: bold;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        margin-bottom: 9%;
+    }
+    
+    .grafico_parte2_img1,
+    .grafico_parte2_img2{
+        float: left; 
+        width: 100%; 
+        text-align: center;
+        margin: 0; 
+        padding: 0;
+    } 
+
+    .grafico_parte2_img1 img,
+    .grafico_parte2_img2 img{
+        width: 90%;
+        margin-bottom: 8%;
+    }
+
+    .txt_parte2_lado_equerdo,
+    .txt_parte2_lado_direita{
+        float: left; 
+        width: 100%;
+    }
+        
+    .txt_parte2_lado_equerdo h1,
+    .txt_parte2_lado_direita h1{
+        width: 92%;
+        font: 1em 'dual300';
+        font-weight: bold;
+        margin-top: 3%;
+    }
+
+    .txt_parte2_lado_direita ul, 
+    .txt_parte2_lado_equerdo ul, 
+    .txt_parte2_lado_direita ul{
+        width: 80%;
+        list-style: initial;
+    }
+
+    .txt_parte2_lado_equerdo ul li, 
+    .txt_parte2_lado_direita ul li{
+        float: left; 
+        width: 100%; 
+        font: 0.9em 'dual300';
+        color: #454545;
+        margin-bottom: 6%;
+        text-align: justify;
+    }
+
+    .il_parte_saibamais_direita{
+        margin-bottom: 15% !important;
+    }
+        
+    .txt_parte2_lado_equerdo ul li img, 
+    .txt_parte2_lado_direita ul li img{
+        display: none;
+    }
+    
+    .txt_parte2_lado_direita p{
+        width: 80%;
+        font-size: 1em;
+    }
+    
+    .empurra_saibamais_parte2{
+        margin-bottom: 3%; 
+    }
+    /* ---------------------------------
+    FIM DO HARMONY PARTE 2
+    --------------------------------- */
+    
+    /* ---------------------------------
+    MAPA
+    --------------------------------- */
+    .tt_des_mapa{display: none;}
+    
+     .env_desc_mapa{
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+    .tt_des_mapa_tablet{
+        display: block;
+        float: none;
+        width: 90%;
+        margin-top:15%;
+        padding-left: 5%;
+        font: 1em 'dual300';
+        text-align: justify; 
+    }
+
+    .env_cont_mapa{
+        display: none;
+    }
+    
+    .env_opcoes_estados{display: block;}
+    
+    .opcoes_estados{
+        margin-top: 4%;
+        margin-bottom: 10%;
+    }
+
+    .opcoes_estados select{
+        width: 85%;
+        padding: 2%;
+        font: 1em 'dual300';
+    }
+    
+    .btn_estados_resp{
+        width: 35%;
+        margin-bottom: 5%;
+    }
+    /* ---------------------------------
+    FIM DO MAPA
+    --------------------------------- */
+    
+     /* ---------------------------------
+    LOGO DE CLIENTES
+    --------------------------------- */
+    .tt_imgs_logos{
+        float: left; 
+        width: 95%;
+        margin-left: 2.5%;
+        margin-bottom: 3%;
+        margin-top: 13%;
+        font:1em 'dual300';
+    }
+
+    .env_imgs{
+        width: 100%;
+    }
+
+    .env_imgs_sub{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .env_imgs_sub img{
+        width: 70%;
+        opacity: 1;
+        margin-top: 2%;
+    }
+    
+    .empurra_baixo_imgs_logos{margin-bottom: 14%;}
+    /* ---------------------------------
+    FIMDO DOS LOGO DE CLIENTES
+    --------------------------------- */
+    
+    /* ---------------------------------
+    PARCERIAS
+    --------------------------------- */
+     .tt_parceiro_busca{
+        font-size: 1.3em;
+        margin-top: 15%;
+    }
+    
+    .env_img_parceria{
+        float: left; 
+        width: 100%;
+        margin-top: 13%;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+
+    .env_img_parceria img{
+        width:100px;
+        float: none;
+        margin-right: 0%;
+    }
+    
+    .txt_parceria{
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 18% !important;
+    }
+
+    .txt_parceria p{
+        float: none; 
+        width: 90%;
+        margin-top: 0%;
+        font: 0.9em 'dual300';
+        margin-bottom: 6%;
+        text-align: center;
+    }
+
+    .txt_parceria a{
+        float: none;
+        font: 1em 'dual300';
+        margin-left: 0%;
+    }
+    /* ---------------------------------
+    FIM DA PARCERIAS
+    --------------------------------- */
+    
+    /* ---------------------------------
+    RESULTADOS DE BUSCAS.
+    --------------------------------- */
+    .p_mobile{display: block;}   
+    .p_desk{display: none}
+    
+    .nome_cidade_perfil h1{
+        width: 99.4%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        padding-top: 1.7%;
+        padding-bottom: 1.7%;
+        font-size: 0.9em;
+    }
+    
+    .env_logo_nome{
+        width: 100%;
+    }
+    
+    .tt_lista_perfils{
+        width: 90%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-bottom: 0px;
+        background: #f37d1d;
+        font: 0.9em 'dual300';
+        font-weight: bold; 
+        margin-top: 24%;
+    }
+
+    .tt_lista_perfils_celular{display: block;}
+    .tt_lista_perfils_desktop{display: none;}
+    
+    .perfil_encontrado{
+        float: left; 
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+    .img_nome{
+        float: none; 
+        margin: 0 auto; 
+        width: auto;
+        width: 90.4%;
+    }
+
+    .img_nome img{
+        float: left;
+        width: 99.2%;
+        border: 1px solid #e0dfdf; 
+        border-bottom: 0px;
+    }
+
+    .img_nome p{ 
+        font: 0.9em 'dual300';
+    } 
+    
+    .env_detalhes_geral{
+        width: 100%;
+    }
+    
+    .detalhes{
+        float: none;
+        margin-top: 0;
+    }
+
+    .detalhes1{
+        width: 89.5%;
+        height: auto;
+        margin-left: 5%;
+        border: 1px solid #e0dfdf;
+    }
+
+    .det_telefone,
+    .det_site,
+    .det_email,
+    .det_mapa,
+    .det_endereco,
+    .det_bairrocep{
+        float: left; 
+        width: 100%; 
+        margin-top: 2%;
+    }
+
+    .det_telefone img,
+    .det_site img,
+    .det_email img,
+    .det_mapa img,
+    .det_endereco img{ 
+        width: 17px;
+    }
+
+    .det_telefone p,
+    .det_site p,
+    .det_email p,
+    .det_mapa p,
+    .det_endereco p,
+    .det_bairrocep p{
+        float: left; 
+        width: 85%;
+        font: 0.9em 'dual300';
+    }
+    
+    .det_bairrocep{
+        margin-bottom: 1.5%;
+        margin-left: 8%;
+        width: 90%;
+    }
+
+    .detalhes2{
+        width: 90.6%;
+        margin-left: 5%;
+    }
+
+    .detalhes2 p{
+        float: left; 
+        font: 0.9em 'dual300';
+        color: #fff; 
+        margin: 0; 
+        margin-left: 2%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .env_img_localtem{
+        margin-top: 3.5%;
+        width: 50%;
+    }
+
+    .env_img_localtem img{
+        float: left; 
+        width: 15px; 
+        margin-top: 3%;
+        padding-left: 10%;
+    }
+
+    .img_etacionamento{width: 33px !important;}
+
+    .det2_unidades,
+    .det2_unidades_unica{
+        width: 100%;
+        font: 0.9em 'dual300';
+    }
+    
+    .empurra_perfils{
+         margin-bottom: 18%;
+    }
+    
+    .uf_nao_encontrado{
+        width: 95%;
+        margin-top: 11%;
+        margin-left: 2.5%;
+        font: 1em 'dual300'; 
+        font-weight: bold;
+    }
+
+    .resultados_entreemcontato{
+        float: left; 
+        width: 75%;
+        margin-left: 12.5%;
+        font: 0.9em 'dual300';
+        color: #73aa95;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .resultados_entreemcontato a{
+        padding: 0.5%;
+        padding-left: 8%;
+        padding-right: 8%;
+        border: 1px solid #73aa95;
+        color: #73aa95;
+        font: 0.9em 'dual300';
+    }
+    
+    .editar_cliente{
+        float: left; 
+        width: 82%; 
+        text-align: center;
+        margin: 0;
+        margin-left: 5%;
+        font: 0.9em 'dual300';
+        color: #797979;
+        padding: 3%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    /* ---------------------------------
+    FIM DOS RESULTADOS DE BUSCAS.
+    --------------------------------- */
+    
+    /* ---------------------------------
+    ESTUDOS CLÍNICOS
+    --------------------------------- */
+    .tt_estudos_clinicos{
+        display: none;
+    }
+    
+    .env_estudos_clinicos{
+        display: none;
+    }
+    /* ---------------------------------
+    FIM DOS ESTUDOS CLÍNICOS
+    --------------------------------- */
+    
+    /* ---------------------------------
+    INSTRUÇÕES DE USO
+    --------------------------------- */
+    .tt_como_feito{
+        font: 1.1em 'dual300';
+        color: #815374; 
+        font-weight: bold;
+        margin-top: 25%;
+    }
+
+    .sub_como_feito{
+        width: 97%;
+        font: 1em 'dual300';
+        padding-left: 1.5%; 
+        padding-right: 1.5%;
+    }
+
+    .env_img_instucoes{
+        float: left; 
+        width: 100%;
+        margin-top: 0%;
+    }
+    
+    .env_img_instucoes:last-child{
+        margin-bottom: 20%;
+    }
+    
+    .img_txt{
+        float: left; 
+        width: 100%; 
+        margin-top: 13%;
+    }
+    
+    .imgagem_nstrucoes{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .imgagem_nstrucoes img{
+        float: none; 
+        width: 130px;
+    }
+
+    .txt_instrucoes{
+        float: left;
+        width: 100%;
+    }
+
+    .bolinha_ordem{
+        display: none;
+    }
+    
+    .txt_instrucoes h3{
+        text-align: center;
+        font: 0.9em 'dual300';
+        font-weight: bold;
+    }
+
+    .txt_instrucoes p{
+        width: 85%;
+        font: 0.9em 'dual300';
+        color: #76ad9a;
+        text-align: center;
+    }
+    /* ---------------------------------
+    FIM DAS INSTRUÇÕES DE USO
+    --------------------------------- */
+    
+    /* ---------------------------------
+    LAUDOS E OUTROS EXAMES
+    --------------------------------- */
+    .env_laudo_exames p{
+        font: 0.9em 'dual300';
+        color: #fff;
+    }
+
+    
+    .img_laudotxt{
+        margin-top: 18%;
+    }
+
+    .img_provastxt{
+        margin-bottom: 15%;
+    }
+
+    .img_laudo{
+        float: left; 
+        width: 100%;
+        text-align: center;
+    }
+
+    .img_laudo img{
+        float: none;
+        width: 100px;
+        margin-right: 0%;
+    }
+
+    .txt_laudo{
+        float: left; 
+        width: 100%;
+    }
+
+    .txt_laudo p{
+        float: left; 
+        width: 90%;
+        adding-left: 5%;
+        padding-right: 5%;
+        margin-left: 0%;margin-top: 4%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 0%;
+    }
+
+
+    .img_nous{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .img_nous img{
+        float: none;
+        width: 100px;
+        margin-top: 3%;
+        margin-right: 0%;
+    }
+
+    .txt_nous{
+        float: left; 
+        width: 100%;
+    }
+
+    .txt_nous p{
+        float: left; 
+        width: 90%;
+        adding-left: 5%;
+        padding-right: 5%;
+        margin-left: 0%;margin-top: 4%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 0%;
+    }
+
+    .txt_nous p a,
+    .txt_laudo p a{
+        font-size: 0.8em;
+    }
+
+    /* ---------------------------------
+    FIM DOS LAUDOS E OUTROS EXAMES
+    --------------------------------- */
+    
+    /* ---------------------------------
+    CONTATO
+    --------------------------------- */
+    .env_logotipo{
+        /*float: left; 
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;*/
+        margin-top: 23%;
+    }
+
+    .env_logotipo img{
+        width: 80%; 
+    }
+
+    .txt_apresentacao_contato{
+        float: left; 
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font: 0.9em 'dual300';
+        /*color: #060606;
+        text-align: center;*/
+    }
+
+    /*.env_formulario{
+        float: left;
+        width: 100%;
+        margin-top: 5%;
+        background: #73aa95;
+    }*/
+
+    .form_contato{
+        /*margin: 0 auto;*/
+        width: 90%;
+    }
+
+    .form_contato label{
+        /*float :left; 
+        width: 100%;*/
+        font: 1em 'dual300';
+        /*color: #fff;
+        margin-top: 1.5%;*/
+    }
+
+    /*.l_uf{
+       width: 20% !important;
+    }*/
+
+    .form_contato select{
+        height: 30px;
+        /*float: left;
+        width: 100%;
+        outline: none;
+        border: 0; 
+        margin-top: 1%;
+        border-radius: 5px 5px 5px 5px;
+        padding-left: 3%;
+        color: #01155f;
+        font: 1em 'dual300';*/
+    }
+
+    /*.l_cidade{
+        width: 75% !important; 
+        margin-left: 5%;
+    }*/
+
+    /*.l_fixo,
+    .l_celular{
+        width: 47.5% !important;
+    }*/
+    
+    /*.l_celular{margin-left: 5%;}*/
+
+    .form_contato input[type="text"],
+    .form_contato input[type="email"],
+    .areatxt{
+        height: 30px;
+        /*width: 93%;
+        outline: none;
+        border: 0; 
+        border-radius: 5px 5px 5px 5px;
+        padding-left: 3%;
+        padding-right: 3%;
+        color: #01155f;
+        font: 1em 'dual300';*/
+    }
+
+    .areatxt{height: auto; padding-top: 3%;}
+
+    /*.env_botoes_form{
+        float: left;
+        width: 100%;
+        margin-top: 1%;
+        margin-bottom: 15%;
+        text-align: center;
+    }*/
+
+    .form_contato input[type="submit"]{
+        width: 35%;
+        /*border: 1px solid #fff;
+        background: #f59648;
+        color: #fff;
+        padding: 1.5%;
+        margin-left: 3%;*/
+        font: 1em 'dual300';
+    }
+
+    /*.form_contato input[type="submit"]:hover{
+        background: #f37d1d;
+    }
+
+    .form_contato input[type="reset"]{
+        width: 25%;
+        border: 1px solid #fff;
+        background: #f7445d;
+        font: 1.2em 'dual300';
+        color: #fff;
+        padding: 1.5%;
+        margin-right: 3%;
+    }*/
+
+    /*.form_contato input[type="reset"]:hover{
+        background: #f62441;
+    }
+
+    .env_contato_descrito{
+        float: left; 
+        width: 100%;
+        background: #945f8b;
+    }*/
+
+    .txt_contato{
+        float: left; 
+        width: 100%;
+        margin-top: 0%;
+    }
+    
+    .mapa_contato{
+        float: left;
+        width: 100%;
+        margin-top: 2%;
+        margin-bottom: 12%;
+    }
+
+    .mapa_contato iframe{
+        float: left; 
+        margin-left: 0%;
+        width: 100%;
+        height: 200px;
+    }
+
+    .tt_cont_form,
+    .tt_cont_desc{
+        /*float: left; 
+        width: 100%;
+        text-align: center; 
+        color: #fff;*/
+        font: 1.1em 'dual300';
+        margin-top: 10%;
+        margin-bottom: 0%;
+        font-weight: bold;
+    }
+
+    .tt_cont_desc{margin-top: 12%; margin-bottom: 4%;}
+
+    .env_contato_descrito p{
+        float: left; 
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-top: 1%;
+        font: 0.9em 'dual300';
+        color: #fff;
+    }
+    
+    .env_contato_descrito p span{display: none;}
+    /*
+    .env_contato_descrito p:first-child{
+        margin-top: 12%;
+    }
+
+    .env_contato_descrito p:last-child{
+        margin-bottom: 4%;
+    }*/
+    /* ---------------------------------
+    FIM DO CONTATO
+    --------------------------------- */
+    
+    /* ---------------------------------
+    LOGIN
+    --------------------------------- */
+    .env_logotipo_login{
+        margin-top: 22%;
+    }
+
+    .env_logotipo_login img{
+        width: 70%; 
+    }
+
+    .env_logotipo_login p{
+        font: 0.9em 'dual300';
+        margin-top: 4%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+    }
+
+    .form_login{
+        width: 90%;
+    }
+
+    .form_login h3{
+        font: 1.1em 'dual300';        
+        font-weight: bold;
+    }
+
+    .form_login input[type="email"],
+    .form_login input[type="password"]{
+        font: 0.8em 'dual300';
+        height: 30px;
+    }
+
+    .form_login input[type="submit"]{
+        font: 0.9em 'dual300';
+        padding: 3%;
+        width: 40%;
+    }
+
+     .empurra_form_login_baixo{
+        float: left; 
+        width: 100%;
+        margin-bottom: 14%;
+    }
+    /* ---------------------------------
+    FIM DO LOGIN
+    --------------------------------- */
+    
+    /* ---------------------------------
+    Admin
+    --------------------------------- */
+    .tt_area_admin{
+        font: 1.2em 'dual300';
+        margin-top: 23%;
+    }
+
+    .env_cad_cli{
+        float: left; 
+        width: 100%;
+    }
+
+    .env_cad_cli h1{
+        font: 1.1em 'dual300';
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;    
+    }
+
+    .form_cad_cli{
+        width: 90%;
+        margin-top: 4%;
+        margin-left: 5%;
+         margin-bottom: 12%;        
+    }
+
+    .form_cad_cli label{
+        font: 0.9em 'dual300';
+    }
+
+    .form_cad_cli input[type="text"],
+    .form_cad_cli input[type="email"],
+    .form_cad_cli select{
+        font: 0.9em 'dual300';
+        background: #ffffff !important;
+    }
+
+    .form_cad_cli input[type="file"]{
+        padding-top: 3%;
+        padding-bottom: 0%;
+    }
+    
+    .form_cad_cli input[type="submit"]{
+        font: 0.9em 'dual300';
+        padding: 3%;        
+         margin-top: 4%;
+    }
+
+    .form_cad_cli select{
+        height: 33px;
+        background: #ffffff !important;
+    }
+
+    .lb_wifi{width: 22% !important; font-size: 0.8em !important;}
+
+    .acesdef{width: 40% !important; font-size: 0.8em !important;}
+
+    .estacionamento,
+    .lc{width: 32% !important; font-size: 0.8em !important;}
+
+    .acesdef,
+    .estacionamento{margin-left: 3%;}
+    
+    .av_lc_logo_cli{
+        float: left;
+        width: 58%;
+        font: 0.9em 'dual300';
+        margin-top: 6%;
+    }
+    
+    .env_relatorio{
+        float: left; 
+        width: 100%;
+    }
+
+    .tt_cli_ativos,
+    .tt_cli_inativos{
+        font: 1.1em 'dual300';
+        margin-top: 12%;
+    }
+
+    .ls_todos_cli_ativos,
+    .ls_todos_cli_inativos{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 11%;
+        margin-bottom: 1%;
+        font: 0.9em 'dual300';
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }    
+    
+    .form_listar_cli{
+        width: 65%;
+        margin-left: 17.5%;
+    }
+    
+    .form_listar_cli select{
+        font: 0.9em 'dual300';
+    }
+
+    .form_listar_cli input[type="submit"]{
+        float: left; 
+        width: 60%;
+        margin-left: 20%; 
+        font: 0.9em 'dual300';
+        margin-top: 8% !important;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .total_clientes{
+        width: 45%;
+        font: 0.9em 'dual300' !important;
+        margin-left: 27.5%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        margin-top: 10%;
+        margin-bottom: 12%;
+    }
+    /* ---------------------------------
+    FIM DO Admin
+    --------------------------------- */
+  
+    /* ---------------------------------
+    ALTERAR DADOS CLIENTE
+    --------------------------------- */
+    .logo_alterar{
+        margin-top: 2%;
+    }
+
+    .logo_alterar img{
+        width:70%;
+    }
+
+    .form_logo input[type="file"]{
+        font: 0.9em 'dual300';
+        margin: 0;
+        width: 90%;
+    }
+    
+    .form_logo span{
+        margin-top: 4%;
+    }
+    
+    .form_logo .span_bto_editarcli{
+        margin-top: 5%;
+    }
+        
+    .excluirlogo{
+        padding-left: 4.5% !important;
+        padding-right: 4.5% !important;
+        font: 0.9em 'dual300' !important;
+        padding: 2% !important;
+    }     
+    
+    .form_logo input[type="submit"]{
+        width: 38%;
+        font: 0.9em 'dual300';
+        padding: 2.2% !important;
+    }
+
+    /* ---------------------------------
+    FIM DO ALTERAR DADOS CLIENTE
+    --------------------------------- */
+    
+    /* ---------------------------------
+    RODAPE
+    --------------------------------- */
+    .copyright{
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .copyright p{
+        float: none; 
+        text-align: center; 
+        margin-left: 0 !important;
+        font: 0.9em 'dual300' !important;
+    }
+
+    .logo_labconous{
+        float: right; 
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        text-align: center; 
+    }
+
+    .logo_labconous img{
+       float: none; 
+       width: 130px;  
+       margin-right: 0; 
+    }
+
+    .copyright_2{
+        display: none;
+    }
+
+    .copyright_2{display: block;}
+    .copyright_1{display: none;}
+    
+    #tel_rodape_resp{
+        margin-left: 2% !important;
+        font: 0.9em 'dual300' !important;
+        margin-top: 0% !important;
+        margin-bottom: 3% !important;
+    }
+    /* ---------------------------------
+    FIM DO RODAPE
+    --------------------------------- */
+}
+
+/*SMARTPHONE - PAISAGEM (ENTRE 321PX E 480PX)*/
+@media all and (min-width: 321px) and (max-width: 480px){
+    /* ---------------------------------
+    MENU RESPONSIVO
+    --------------------------------- */
+    .menu_desktop{display: none;}
+    
+    .menu_responsivo{display: block;}
+    
+    .logo_menu_responsivo{
+        margin-top: 2.4%;
+        margin-bottom: 2.4%;
+    }
+
+    .icone_menu_responsivo{
+        margin-top: 2.6%;
+    }
+    
+    .links_menu_mobile ul li{ 
+        font: 0.8em 'dual300';
+        padding-top: 2.2%;
+        padding-bottom: 2.2%;
+    }
+    
+    .links_menu_mobile ul li span{
+        padding-top: 0.9%;
+        padding-bottom: 0.9%;
+    }
+    /* ---------------------------------
+    FIM DO MENU RESPONSIVO
+    --------------------------------- */    
+  
+    /* ---------------------------------
+    FIM DO BANNER RESPONSIVO
+    --------------------------------- */    
+    .img_banner_desktop{display:none;}
+    .img_banner_responsivo{display: block;}
+    /* ---------------------------------
+    FIM DO BANNER RESPONSIVO
+    --------------------------------- */
+    
+    /* ---------------------------------
+    ICONES DO BANNER
+    --------------------------------- */    
+    .cbp-bicontrols {
+	right: 3%;
+        bottom: 0%;
+    }
+    .cbp-bicontrols span {
+	width: 30px;
+	height: 80px;
+    }
+    
+    .cbp-bicontrols span:before {
+	font-size: 30px;
+        line-height: 100px;
+    }
+    /* ---------------------------------
+    FIM DOS ICONES DO BANNER
+    --------------------------------- */
+    
+    /* ---------------------------------
+    VÍDEO DO HOME 
+    --------------------------------- */
+    .logo_vd_home img{
+        width: 32%;
+        padding-top: 12%;
+    }
+    
+    .txt_grande{display: none;}
+    .txt_pequeno{display: none;}
+
+    .txt2_vd_home h1{
+        width: 75%;
+        font: 1.1em 'dual300';
+    }
+    
+    .txt2_vd_home{
+         padding-bottom: 12%;
+    }
+    
+    .env_video{
+        padding-top: 2%;
+        padding-bottom: 1%;
+        width: 80%;
+    }
+    /* ---------------------------------
+    FIM DO VÍDEO DO HOME 
+    --------------------------------- */
+ 
+    /* ---------------------------------
+    EXPLICAÇÃO HARMONY HOME
+    --------------------------------- */ 
+     .env_img_txt:first-child{
+        margin-top: 13% !important;
+    }
+
+    .env_img_txt:last-child{
+        margin-bottom: 7%;
+    }
+    
+    .img_esquerda,
+    .img_direita,
+    .txt_esquerda,
+    .txt_direita{
+        width: 100%;
+        text-align: center !important; 
+    }
+    
+    .img_esquerda img,
+    .img_direita img{
+        float: none !important;
+        margin: 0 auto; 
+        width: 30%;
+    }
+    
+    .img_esquerda_normal{display: none;}
+    .img_esquerda_smartphone{display: block;}
+    
+    .txt_esquerda h1,
+    .txt_direita h1{
+        float: none !important;
+        width: 100%;
+        text-align: center; 
+        margin-top: 1%;
+        margin-left: 0px;
+    }
+    
+    .txt_direita,
+    .txt_esquerda{
+        float: none !important;
+        width: 100% !important;
+        text-align: center; 
+    }
+    
+    .txt_direita p,
+    .txt_esquerda p{
+        float: none !important;
+        width: 90%;
+        text-align: justify; 
+        margin-top: 1px;
+        margin-left: 5%;
+        font: 1em 'dual300';
+    }
+    /* ---------------------------------
+    FIM DA EXPLICAÇÃO HARMONY HOME
+    --------------------------------- */ 
+    
+    /* ---------------------------------
+    GRAFICOS DE TAXAS NO HOME
+    --------------------------------- */
+    .tt_graficos_home_responsivo{
+        display: block;
+        width: 96%;
+        font: 1.5em 'dual300';
+        margin-top: 15%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 7%;
+    }
+    
+    .tt_graficos_home{
+        display: none;
+    }
+    
+    .graficos_home{       
+        margin-bottom: 12%;
+    }
+    
+    .img_tx_falso_positivo,
+    .img_tx_deteccao{
+        width: 100%; 
+        text-align: center !important;
+    }
+    
+    .img_tx_falso_positivo img{
+        float: none !important;
+        width: 90%;
+        margin: 0 auto; 
+    }
+
+    .img_tx_deteccao img{
+        float: none !important;
+        width: 65%;
+        padding-top: 8%;
+        margin: 0 auto; 
+    }
+    /* ---------------------------------
+    FIM DOS GRAFICOS DE TAXAS NO HOME
+    --------------------------------- */
+    
+    /* ---------------------------------
+    PORQUE O HARMONY?
+    --------------------------------- */
+    .tt_pq_harmony h1{
+        font: 2em 'dual300';  
+        margin-top: 12%;
+        margin-bottom: 0px; 
+    }
+    
+    .pq_harmony{
+        margin-top: 8%;
+    }
+    
+    .lad_esquerdo_pq_harmony,
+    .lad_direito_pq_harmony{
+        float: left; 
+        width: 100%;
+        text-align: center; 
+    }
+    
+    .pq_harmony:last-child{
+        margin-bottom: 7% !important;
+    }
+    
+    .img_pq_harmony{
+        float: none !important;
+        margin: 0 auto !important; 
+    }
+    
+    .img_pq_harmony img{
+        margin: 0 auto; 
+    }
+    
+    .txt_pq_harmony{
+        width: 100%; 
+        text-align: center; 
+        margin-left: 0;
+    }
+    
+    .txt_pq_harmony p{
+        text-align: center; 
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2%;
+        font: 1.1em 'dual300'; 
+    }
+    
+    .txt_pq_harmony ul li{
+        width: 80%;
+        margin-left: 10%; 
+        text-align: left; 
+    }
+    
+    .link_vermais_grafico{
+        margin-top: 7%;
+        margin-bottom: 13.5% !important;
+    }
+
+    .link_vermais_grafico a{
+        font: 1em 'dual300';
+        color: #8c4d81;
+        font-weight: bold;
+        padding: 1.7%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    .txt_direita a, .txt_esquerda a {
+        float: left; 
+        width: 100%; 
+        text-align: center; 
+        font-size: 1em;
+    }
+    /* ---------------------------------
+    FIM DO PORQUE O HARMONY?
+    --------------------------------- */
+    
+    /* ---------------------------------
+    DESCRITIVO SAIBA MAIS RESPONSIVO
+    --------------------------------- */
+    .link_cont_desc{display: none;}
+
+    .tt_umpouco_ciencia{display: none;}
+    
+    .tt_umpouco_ciencia_responsivo{
+        display: block;
+        font-size: 1em;
+        margin-top: 18%; 
+        padding-top: 1.1%;
+        padding-bottom: 1.1%;
+    }
+    
+    .menus_desc_responsivo{display: block;}
+    
+    .menus_desc_responsivo ul li{
+        font: 1em 'dual300';
+        margin-top: 8%;
+        font-weight: bold;
+    }
+    .menus_desc_responsivo ul li img{ 
+        width: 15px; 
+    }
+
+    .env_desc_saibamais_responsivo h3{
+        font: 1em 'dual300';
+    }
+
+    .env_desc_saibamais_responsivo p{
+        font: 0.9em 'dual300';
+    }   
+    
+    .ul_cont_desc_saibamais li{
+        font-weight: normal !important;
+        font-size: 0.9em;
+    }
+    
+    .accordion_link_resp1{padding-top: 1%;}
+    .accordion_link_resp7{margin-bottom: 8%;}
+    
+    /* ---------------------------------
+    FIM DO DESCRITIVO SAIBA MAIS RESPONSIVO
+    --------------------------------- */
+    
+    /* ---------------------------------
+    AVISO SAIBA MAIS
+    --------------------------------- */
+    .texto_aviso{display: none;}
+    
+    .env_img_aviso{
+        float: left; 
+        width: 100%; 
+        text-align: center; 
+    }
+    
+    .img_aviso{
+        float: none !important;
+        width: 70px; 
+        margin-top: 12%;
+        margin-bottom: 0%;
+    }
+    
+    .text_aviso_2{
+        display: block;
+        float: left; 
+        width: 134%; 
+        text-align: center; 
+        margin-top: 3%;
+        margin-bottom: 18%;
+        padding-right: 8%;
+        padding-left: 8%; 
+        font: 1em 'dual300';
+    }
+    /* ---------------------------------
+    FIM DO AVISO SAIBA MAIS
+    --------------------------------- */
+    
+    /* ---------------------------------
+    TRIAGEM ATUAL 
+    --------------------------------- */
+    .tt_triagem_atual{
+        width: 95%;
+        padding-right: 2.5%;
+        padding-left: 2.5%;
+        text-align: center; 
+        font: 1.2em 'dual300';
+        margin-top: 14%; 
+        font-weight: bold;
+    }
+
+    
+    .grafico_triagem_atual{
+        float: left; 
+        width: 100%;
+        text-align: center !important; 
+    }
+    
+    .grafico_triagem_atual img{
+        float: none !important;
+        width: 95%;
+        margin-right: 0 !important;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+
+    .txt_triagem_atual{
+        float: left;
+        width: 100%;
+    }
+    
+    .txt_triagem_atual ul{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 14%;
+    }
+
+    .txt_triagem_atual ul li{
+        text-align: justify;
+        padding-top: 5%;
+        font-size: 1em;
+    }
+    /* ---------------------------------
+    FIM DA TRIAGEM ATUAL 
+    --------------------------------- */
+    
+    /* ---------------------------------
+    HARMONY PARTE 1 - SAIBA MAIS
+    --------------------------------- */
+    .tt_uma_nova_op{display: none;}
+
+    .tt_uma_nova_op_responsivo{
+        display: block;
+        margin-top: 14%;
+        font: 1.2em 'dual300';
+        color: #73aa95;
+        font-weight: bold;
+    }
+    
+    .topicos_harmony{ 
+        width: 85%;
+        margin-left: 7.5%;
+    }
+
+    .topicos_harmony h3{
+        font: 1.1em 'dual300';
+        font-weight: bold;
+    }
+
+    .topicos_harmony ul{
+        width: 92%; 
+        margin-left: 5%;
+    }
+
+    .topicos_harmony ul li{ 
+        width: 96%; 
+        font: 1em 'dual300';
+        margin-bottom: 5%; 
+    }
+
+    .topicos_harmony ul li:last-child{
+        margin-bottom: 10%;
+    }
+
+    .circulo{
+        width: 9px;
+        height: 9px;
+        margin-bottom: 50px;
+    }
+    /* ---------------------------------
+    FIM DO HARMONY PARTE 1 - SAIBA MAIS
+    --------------------------------- */
+    
+    /* ---------------------------------
+    HARMONY PARTE 2
+    --------------------------------- */
+    .tt_faixa_harmony_parte2{display: none;}
+    .tt_faixa_harmony_parte2_responsivo{
+        display: block;
+        font: 1.2em 'dual300';
+        font-weight: bold;
+        padding-top: 3.5%;
+        padding-bottom: 3.5%;
+        margin-bottom: 8%;
+    }
+    
+    .grafico_parte2_img1,
+    .grafico_parte2_img2{
+        float: left; 
+        width: 100%; 
+        text-align: center;
+        margin: 0; 
+        padding: 0;
+    } 
+
+    .grafico_parte2_img1 img,
+    .grafico_parte2_img2 img{
+        width: 80%;
+        margin-bottom: 8%;
+    }
+
+    .txt_parte2_lado_equerdo,
+    .txt_parte2_lado_direita{
+        float: left; 
+        width: 100%;
+    }
+        
+    .txt_parte2_lado_equerdo h1,
+    .txt_parte2_lado_direita h1{
+        width: 92%;
+        font: 1.1em 'dual300';
+        font-weight: bold;
+        margin-top: 3%;
+    }
+
+    .txt_parte2_lado_direita ul, 
+    .txt_parte2_lado_equerdo ul, 
+    .txt_parte2_lado_direita ul{
+        width: 80%;
+        list-style: initial;
+    }
+
+    .txt_parte2_lado_equerdo ul li, 
+    .txt_parte2_lado_direita ul li{
+        float: left; 
+        width: 100%; 
+        font: 1em 'dual300';
+        color: #454545;
+        margin-bottom: 6%;
+        text-align: justify;
+    }
+
+    .il_parte_saibamais_direita{
+        margin-bottom: 15% !important;
+    }
+        
+    .txt_parte2_lado_equerdo ul li img, 
+    .txt_parte2_lado_direita ul li img{
+        display: none;
+    }
+
+    .txt_parte2_lado_direita p{
+        width: 80%;
+        font-size: 1em;
+    }
+    
+    .empurra_saibamais_parte2{
+        margin-bottom: 2%; 
+    }
+    /* ---------------------------------
+    FIM DO HARMONY PARTE 2
+    --------------------------------- */
+    
+    /* ---------------------------------
+    MAPA
+    --------------------------------- */
+    .tt_des_mapa{display: none;}
+    
+     .env_desc_mapa{
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+    .tt_des_mapa_tablet{
+        display: block;
+        float: none;
+        width: 90%;
+        margin-top:14%;
+        padding-left: 5%;
+        font: 1em 'dual300';
+        text-align: center; 
+    }
+
+    .env_cont_mapa{
+        display: none;
+    }
+    
+    .env_opcoes_estados{display: block;}
+    
+    .opcoes_estados{
+        margin-top: 4%;
+        margin-bottom: 14%;
+    }
+
+    .opcoes_estados select{
+        width: 80%;
+        padding: 2%;
+        font: 1em 'dual300';
+    }
+    
+    .btn_estados_resp{
+        width: 30%;
+    }
+    /* ---------------------------------
+    FIM DO MAPA
+    --------------------------------- */
+    
+    /* ---------------------------------
+    LOGO DE CLIENTES
+    --------------------------------- */
+    .tt_imgs_logos{
+        float: left; 
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        margin-top: 13%;
+        font:1em 'dual300';
+    }
+
+    .env_imgs{
+        width: 100%;
+    }
+
+    .env_imgs_sub{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .env_imgs_sub img{
+        width: 70%;
+        opacity: 1;
+        margin-top: 2%;
+    }
+    
+    .empurra_baixo_imgs_logos{margin-bottom: 14%;}
+    /* ---------------------------------
+    FIM DOS LOGO DE CLIENTES
+    --------------------------------- */
+    
+    /* ---------------------------------
+    PARCERIAS
+    --------------------------------- */
+    .tt_parceiro_busca{
+        font-size: 1.6em;
+        margin-top: 11%;
+    }
+    
+    .env_img_parceria{
+        float: left; 
+        width: 100%;
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-top: 13%;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+
+    .env_img_parceria img{
+        width: 130px;
+        float: none;
+        margin-right: 0%;
+    }
+
+    .img_parc_clinicas{margin-top: 12% !important; margin-bottom: 2% !important;}
+    
+    .txt_parceria{
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 14% !important;
+    }
+
+    .txt_parceria p{
+        float: none; 
+        width: 90%;
+        margin-top: 0%;
+        font: 1em 'dual300';
+        margin-bottom: 6%;
+        text-align: center;
+    }
+
+    .txt_parceria a{
+        float: none;
+        font: 1.1em 'dual300';
+        margin-left: 0%;
+    }
+    /* ---------------------------------
+    FIM DA PARCERIAS
+    --------------------------------- */
+    
+    /* ---------------------------------
+    RESULTADOS DE BUSCAS.
+    --------------------------------- */
+    .p_mobile{display: block;}   
+    .p_desk{display: none}
+    
+    .nome_cidade_perfil h1{
+        width: 99.5%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        font-size: 1em;
+    }
+    
+    .env_logo_nome{
+        width: 100%;
+    }
+    
+    .tt_lista_perfils{
+        width: 85%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        margin-bottom: 0px;
+        background: #f37d1d;
+        color: #fff;
+        font: 1em 'dual300';
+        font-weight: bold; 
+        margin-top: 21%;
+    }
+
+    .tt_lista_perfils_celular{display: block;}
+    .tt_lista_perfils_desktop{display: none;}
+    
+    .perfil_encontrado{
+        float: left; 
+        width: 100%;
+        margin-top: 7%;
+    }
+    
+    .img_nome{
+        float: none; 
+        margin: 0 auto; 
+        width: auto;
+        width: 75%;
+    }
+
+    .img_nome img{
+        float: left;
+        width: 99.3%;
+        border: 1px solid #e0dfdf; 
+        border-bottom: 0px;
+    }
+    
+    .img_nome p{ 
+        font: 1em 'dual300';
+    } 
+     
+    
+    .env_detalhes_geral{
+        width: 100%;
+    }
+    
+    .detalhes{
+        float: none;
+        margin-top: 0;
+    }
+
+    .detalhes1{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        border: 1px solid #e0dfdf;
+    }
+
+    .det_telefone,
+    .det_site,
+    .det_email,
+    .det_mapa,
+    .det_endereco,
+    .det_bairrocep{
+        float: left; 
+        width: 100%; 
+        margin-top: 1.5%;
+    }
+
+    .det_telefone img,
+    .det_site img,
+    .det_email img,
+    .det_mapa img,
+    .det_endereco img{ 
+        width: 18px;
+    }
+
+    .det_telefone p,
+    .det_site p,
+    .det_email p,
+    .det_mapa p,
+    .det_endereco p,
+    .det_bairrocep p{
+        float: left; 
+        width: 85%;
+        font: 0.9em 'dual300';
+    }
+    
+    .det_bairrocep{
+        margin-bottom: 1.5%;
+        margin-left: 6%;
+        width: 90%;
+    }
+
+    .detalhes2{
+        width: 90.4%;
+        margin-left: 5%;
+    }
+
+    .detalhes2 p{
+        float: left; 
+        font: 1em 'dual300';
+        color: #fff; 
+        margin: 0; 
+        margin-left: 2%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .env_img_localtem{
+        margin-top: 3.2%;
+        width: 50%;
+    }
+
+    .env_img_localtem img{
+        float: left; 
+        width: 15px; 
+        padding-left: 10%;
+    }
+
+    .img_etacionamento{width: 33px !important;}
+
+    .det2_unidades,
+    .det2_unidades_unica{
+        width: 100%;
+        font: 1em 'dual300';
+    }
+    
+    .empurra_perfils{
+         margin-bottom: 13%;
+    }
+    
+    .uf_nao_encontrado{
+        width: 95%;
+        margin-top: 9%;
+        margin-left: 2.5%;
+        font: 1.2em 'dual300'; 
+        font-weight: bold;
+    }
+
+    .resultados_entreemcontato{
+        float: left; 
+        width: 75%;
+        margin-left: 12.5%;
+        font: 1em 'dual300';
+        color: #73aa95;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .resultados_entreemcontato a{
+        padding: 0.5%;
+        padding-left: 8%;
+        padding-right: 8%;
+        border: 1px solid #73aa95;
+        color: #73aa95;
+        font: 1em 'dual300';
+    }
+    
+    .editar_cliente{
+        float: left; 
+        width: 82%; 
+        text-align: center;
+        margin: 0;
+        margin-left: 5%;
+        font: 1em 'dual300';
+        color: #797979;
+        padding: 2%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    /* ---------------------------------
+    FIM DOS RESULTADOS DE BUSCAS.
+    --------------------------------- */
+    
+    /* ---------------------------------
+    ESTUDOS CLÍNICOS
+    --------------------------------- */
+    .tt_estudos_clinicos{
+        display: none;
+    }
+    
+    .env_estudos_clinicos{
+        display: none;
+    }
+    /* ---------------------------------
+    FIM DOS ESTUDOS CLÍNICOS
+    --------------------------------- */
+    
+    /* ---------------------------------
+    INSTRUÇÕES DE USO
+    --------------------------------- */
+    .tt_como_feito{
+        font: 1.1em 'dual300';
+        color: #815374; 
+        font-weight: bold;
+        margin-top: 24%;
+    }
+
+    .sub_como_feito{
+        width: 97%;
+        font: 1em 'dual300';
+        padding-left: 1.5%; 
+        padding-right: 1.5%;
+    }
+
+    .env_img_instucoes{
+        float: left; 
+        width: 100%;
+        margin-top: 0%;
+    }
+    
+    .env_img_instucoes:last-child{
+        margin-bottom: 20%;
+    }
+    
+    .img_txt{
+        float: left; 
+        width: 100%; 
+        margin-top: 13%;
+    }
+    
+    .imgagem_nstrucoes{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .imgagem_nstrucoes img{
+        float: none; 
+        width: 140px;
+    }
+
+    .txt_instrucoes{
+        float: left;
+        width: 100%;
+    }
+
+    .bolinha_ordem{
+        display: none;
+    }
+    
+    .txt_instrucoes h3{
+        text-align: center;
+        font: 1em 'dual300';
+        font-weight: bold;
+    }
+
+    .txt_instrucoes p{
+        width: 85%;
+        font: 1em 'dual300';
+        color: #76ad9a;
+        text-align: center;
+    }
+    /* ---------------------------------
+    FIM DAS INSTRUÇÕES DE USO
+    --------------------------------- */
+    
+    /* ---------------------------------
+    LAUDOS E OUTROS EXAMES
+    --------------------------------- */
+    .env_laudo_exames p{
+        font: 1em 'dual300';
+        color: #fff;
+    }
+
+    
+    .img_laudotxt{
+        margin-top: 14%;
+    }
+
+    .img_provastxt{
+        margin-bottom: 10%;
+    }
+
+    .img_laudo{
+        float: left; 
+        width: 100%;
+        text-align: center;
+    }
+
+    .img_laudo img{
+        float: none;
+        width: 130px;
+        margin-right: 0%;
+    }
+
+    .txt_laudo{
+        float: left; 
+        width: 100%;
+    }
+
+    .txt_laudo p{
+        float: left; 
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 0%;margin-top: 4%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 0%;
+    }
+
+
+    .img_nous{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .img_nous img{
+        float: none;
+        width: 130px;
+        margin-top: 3%;
+        margin-right: 0%;
+    }
+
+    .txt_nous{
+        float: left; 
+        width: 100%;
+    }
+
+    .txt_nous p{
+        float: left; 
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 0%;margin-top: 4%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 0%;
+    }
+
+    .txt_nous p a,
+    .txt_laudo p a{
+        font-size: 0.8em;
+    }
+
+    /* ---------------------------------
+    FIM DOS LAUDOS E OUTROS EXAMES
+    --------------------------------- */
+
+    /* ---------------------------------
+    CONTATO
+    --------------------------------- */
+    .env_logotipo{
+        margin-top: 20%;
+    }
+
+    .env_logotipo img{
+        width: 80%; 
+    }
+
+    .txt_apresentacao_contato{
+        float: left; 
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font: 1em 'dual300';
+    }
+
+    .form_contato{
+        width: 90%;
+    }
+
+    .form_contato label{
+        font: 1em 'dual300';
+    }
+    .form_contato select{
+        height: 30px;
+    }  
+        
+    .form_contato input[type="text"],
+    .form_contato input[type="email"],
+    .areatxt{
+        height: 30px;
+    }
+
+    .areatxt{height: auto; padding-top: 3%;}
+    
+    .form_contato input[type="submit"]{
+        width: 35%;
+    }
+
+    .txt_contato{
+        float: left; 
+        width: 100%;
+        margin-top: 0%;
+    }
+    
+    .mapa_contato{
+        float: left;
+        width: 100%;
+        margin-top: 2%;
+        margin-bottom: 12%;
+    }
+
+    .mapa_contato iframe{
+        float: left; 
+        margin-left: 5%;
+        width: 90%;
+        height: 200px;
+    }
+
+    .tt_cont_form,
+    .tt_cont_desc{
+        font: 1.7em 'dual300';
+        margin-top: 8%;
+        margin-bottom: 0%;
+        font-weight: bold;
+    }
+
+    .tt_cont_desc{margin-top: 10%; margin-bottom: 4%;}
+
+    .env_contato_descrito p{
+        float: left; 
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-top: 1%;
+        font: 1em 'dual300';
+        color: #fff;
+    }
+    
+    .env_contato_descrito p span{display: none;}
+    /* ---------------------------------
+    FIM DO CONTATO
+    --------------------------------- */
+    
+    /* ---------------------------------
+    LOGIN
+    --------------------------------- */
+    .env_logotipo_login{
+        margin-top: 20%;
+    }
+
+    .env_logotipo_login img{
+        width: 70%; 
+    }
+
+    .env_logotipo_login p{
+        font: 1em 'dual300';
+        margin-top: 3%;
+        padding-top: 1.2%;
+        padding-bottom: 1.2%;
+    }
+
+    .form_login{
+        width: 70%;
+    }
+
+    .form_login h3{
+        font: 1.3em 'dual300';        
+        font-weight: bold;
+    }
+
+    .form_login input[type="email"],
+    .form_login input[type="password"]{
+        font: 0.9em 'dual300';
+        height: 35px;
+    }
+
+    .form_login input[type="submit"]{
+        font: 1em 'dual300';
+        padding: 2%;
+    }
+    
+    .empurra_form_login_baixo{
+        float: left; 
+        width: 100%;
+        margin-bottom: 12%;
+    }
+     
+    /* ---------------------------------
+    FIM DO LOGIN
+    --------------------------------- */
+    
+    /* ---------------------------------
+    Admin
+    --------------------------------- */
+    .tt_area_admin{
+        font: 1.3em 'dual300';
+        margin-top: 22%;
+    }
+
+    .env_cad_cli{
+        float: left; 
+        width: 100%;
+    }
+
+    .env_cad_cli h1{
+        font: 1.2em 'dual300';
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;    
+    }
+
+    .form_cad_cli{
+        width: 90%;
+        margin-top: 4%;
+        margin-left: 5%;
+         margin-bottom: 12%;        
+    }
+
+    .form_cad_cli label{
+        font: 0.9em 'dual300';
+    }
+
+    .form_cad_cli input[type="text"],
+    .form_cad_cli input[type="email"],
+    .form_cad_cli select{
+        font: 0.9em 'dual300';
+    }
+
+    .form_cad_cli input[type="file"]{
+        padding-top: 2%;
+        padding-bottom: 0%;
+    }
+    
+    .form_cad_cli input[type="submit"]{
+        font: 0.9em 'dual300';
+        padding: 3%;        
+         margin-top: 4%;
+    }
+
+    .form_cad_cli select{
+        height: 33px;
+    }
+
+    .lb_wifi{width: 22% !important;}
+
+    .acesdef{width: 40% !important;}
+
+    .estacionamento,
+    .lc{width: 32% !important;}
+
+    .acesdef,
+    .estacionamento{margin-left: 3%;}
+    
+    .av_lc_logo_cli{
+        float: left;
+        width: 58%;
+        font: 0.9em 'dual300';
+        margin-top: 6%;
+    }
+    
+    .env_relatorio{
+        float: left; 
+        width: 100%;
+    }
+
+    .tt_cli_ativos,
+    .tt_cli_inativos{
+        font: 1.2em 'dual300';
+        margin-top: 12%;        
+    }
+
+    .ls_todos_cli_ativos,
+    .ls_todos_cli_inativos{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 8%;
+        margin-bottom: 1%;
+        font: 1em 'dual300';
+        padding-top: 1.2%;
+        padding-bottom: 1.2%;
+    }
+    
+    .form_listar_cli{
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    .form_listar_cli select{
+        font: 0.9em 'dual300';
+    }
+
+    .form_listar_cli input[type="submit"]{
+        float: left; 
+        width: 60%;
+        margin-left: 20%; 
+        font: 0.9em 'dual300';
+        margin-top: 8% !important;
+    }
+    
+    .total_clientes{
+        width: 35%;
+        font: 0.9em 'dual300' !important;
+        margin-left: 32.5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 7%;
+        margin-bottom: 12%;
+    }
+    /* ---------------------------------
+    FIM DO Admin
+    --------------------------------- */
+    
+    /* ---------------------------------
+    ALTERAR DADOS CLIENTE
+    --------------------------------- */
+    .logo_alterar{
+        margin-top: 2%;
+    }
+
+    .logo_alterar img{
+        width:70%;
+    }
+
+    .form_logo input[type="file"]{
+        font: 0.9em 'dual300';
+        margin: 0;
+        width: 90%;
+    }
+    
+    .form_logo span{
+        margin-top: 3.5%;
+    }
+    
+    .form_logo .span_bto_editarcli{
+        margin-top: 4.5%;
+    }
+        
+    .excluirlogo{
+        padding-left: 4% !important;
+        padding-right: 4% !important;
+        font: 0.9em 'dual300' !important;
+        padding: 2% !important;
+    }    
+    
+    .form_logo input[type="submit"]{
+        width: 30%;
+        font: 0.9em 'dual300';
+        padding: 2% !important;
+    }
+
+    /* ---------------------------------
+    FIM DO ALTERAR DADOS CLIENTE
+    --------------------------------- */
+    
+    /* ---------------------------------
+    RODAPE
+    --------------------------------- */
+    .copyright{
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .copyright p{
+        float: none; 
+        text-align: center; 
+        margin-left: 0;
+        font-size: 1em !important;
+        margin-left: 0% !important;
+    }
+
+    .logo_labconous{
+        float: right; 
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        text-align: center; 
+    }
+
+    .logo_labconous img{
+       float: none; 
+       width: 140px;  
+       margin-right: 0; 
+    }
+
+    .copyright_2{
+        display: none;
+    }
+
+    .copyright_2{display: block;}
+    .copyright_1{display: none;}
+    
+    #tel_rodape_resp{
+        margin-left: 2% !important;
+        font: 1em 'dual300' !important;
+        margin-bottom: 2% !important;
+    }
+
+    /* ---------------------------------
+    FIM DO RODAPE
+    --------------------------------- */
+}
+
+
+
